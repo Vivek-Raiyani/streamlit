@@ -13,7 +13,7 @@ def get_image_url(name):
     return None
 
 def get_video_url(name):
-    videos = DDGS().videos(f"podcast featuring {name} on youtube", max_results=3)  # Assuming this function returns video URLs
+    videos = DDGS().videos(f"podcast featuring {name} on youtube , dont look for other platform", max_results=3)  # Assuming this function returns video URLs
     if videos:
         return [video['content'] for video in videos]  # Adjust based on actual structure
     return []
