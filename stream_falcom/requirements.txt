@@ -1,5 +1,4 @@
-pip install duckduckgo-search
-pip install ai71
-pip install streamlit
-pip install os 
-pip install python-dotenv
+duckduckgo-search
+ai71
+streamlit
+python-dotenv
